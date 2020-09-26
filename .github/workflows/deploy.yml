@@ -20,6 +20,6 @@ jobs:
     - name: Build
       run: xcodebuild -scheme Hotstar -allowProvisioningUpdates build
     - name: Archive
-      run: xcodebuild -scheme Hotstar -archivePath DerivedData/Archive/Hotstar -allowProvisioningUpdates archive
+      run: xcodebuild -scheme Hotstar -allowProvisioningUpdates archive
     - name: Export
-      run: xcodebuild -allowProvisioningUpdates -exportArchive -archivePath DerivedData/Archive/Hotstar -exportPath DerivedData/ipa -exportOptionsPlist Profiles/appstore.plist
+      run: xcodebuild -allowProvisioningUpdates -exportArchive -exportPath DerivedData/ipa -exportOptionsPlist Profiles/appstore.plist
