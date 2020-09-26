@@ -18,8 +18,8 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_11.3.app && /usr/bin/xcodebuild -version
     - name: Build
-      run: xcodebuild -scheme Hotstar build
+      run: xcodebuild -scheme Hotstar -allowProvisioningUpdates build
     - name: Archive
-      run: xcodebuild -scheme Hotstar -archivePath DerivedData/Archive/Hotstar archive
+      run: xcodebuild -scheme Hotstar -archivePath DerivedData/Archive/Hotstar -allowProvisioningUpdates archive
     - name: Export
       run: xcodebuild -allowProvisioningUpdates -exportArchive -archivePath DerivedData/Archive/Hotstar -exportPath DerivedData/ipa -exportOptionsPlist Profiles/appstore.plist
