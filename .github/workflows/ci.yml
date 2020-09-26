@@ -1,10 +1,30 @@
-name: Deploy
+name: CI
 
 on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
 jobs:
+  Swiftlint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Github Action for Swiftlint
+      uses: norio-nomura/action-swiftlint@3.0.1
+
+  Test:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: List all available xcode versions
+      run: ls /Applications | grep Xcode
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_11.6.app && /usr/bin/xcodebuild -version
+    - name: Run Unit Tests
+      run: xcodebuild test -scheme Hotstar -project Hotstar.xcodeproj -destination 'platform=iOS Simulator,name=iPhone 11,OS=11.3' | xcpretty && exit ${PIPESTATUS[0]}
   Build:
     runs-on: macOS-latest
     steps:

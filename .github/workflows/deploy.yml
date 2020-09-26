@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Build:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install GPG
+      run: brew install gnupg
+    - name: List all available xcode versions
+      run: ls /Applications | grep Xcode
+    - name: Decrypt large secret
+      run: provisioning/import_provisioning.sh
+      env: PROVISIONING_PASSWORD: ${{ secrets.provisioning_password }}
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_11.3.app && /usr/bin/xcodebuild -version
+    - name: Build
+      run: xcodebuild -scheme Hotstar build
+    - name: Archive
+      run: xcodebuild -scheme Hotstar -archivePath DerivedData/Archive/Hotstar archive
+    - name: Export
+      run: xcodebuild -allowProvisioningUpdates -exportArchive -archivePath DerivedData/Archive/Hotstar -exportPath DerivedData/ipa -exportOptionsPlist Profiles/appstore.plist
