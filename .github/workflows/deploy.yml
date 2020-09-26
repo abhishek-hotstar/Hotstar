@@ -19,9 +19,7 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_12.app && /usr/bin/xcodebuild -version
     - name: Create Archive archive path
       run: mkdir ~/Desktop/temp
-    - name: Build
-      run: xcodebuild -scheme Hotstar -allowProvisioningUpdates build
     - name: Archive
-      run: xcodebuild -scheme Hotstar -archivePath ~/Desktop/temp -allowProvisioningUpdates archive
+      run: xcodebuild -scheme Hotstar -archivePath ~/Desktop/temp/artifact.xcarchive archive
     - name: Export
-      run: xcodebuild -allowProvisioningUpdates -exportArchive -archivePath ~/Desktop/temp -exportPath DerivedData/ipa -exportOptionsPlist Profiles/appstore.plist
+      run: xcodebuild -allowProvisioningUpdates -exportArchive -archivePath ~/Desktop/temp/artifact.xcarchive archive -exportPath ~/Desktop/temp -exportOptionsPlist Profiles/appstore.plist
