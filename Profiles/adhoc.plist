@@ -4,6 +4,15 @@
 <dict>
 	<key>teamID</key>
 	<string>JTYWLXSK79</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>signingCertificate</key>
+	<string>Apple Distribution: Novi Digital Entertainment Pvt. Ltd.</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>in.startv.hotstar</key>
+		<string>eb57bdb1-bf16-462d-b972-f68f7fff8452</string>
+	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>uploadSymbols</key>
