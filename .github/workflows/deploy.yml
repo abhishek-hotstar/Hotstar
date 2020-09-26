@@ -9,8 +9,6 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Install GPG
-      run: brew install gnupg
     - name: List all available xcode versions
       run: ls /Applications | grep Xcode
     - name: Decrypt large secret
