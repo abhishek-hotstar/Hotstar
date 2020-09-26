@@ -16,7 +16,7 @@ jobs:
       env: 
         PROVISIONING_PASSWORD: ${{ secrets.provisioning_password }}
     - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode_11.3.app && /usr/bin/xcodebuild -version
+      run: sudo xcode-select -switch /Applications/Xcode_12.app && /usr/bin/xcodebuild -version
     - name: Build
       run: xcodebuild -scheme Hotstar -allowProvisioningUpdates build
     - name: Archive
