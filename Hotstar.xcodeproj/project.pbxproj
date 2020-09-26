@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF21E2CA251F68BE008E2E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21E2C9251F68BE008E2E84 /* AppDelegate.swift */; };
+		EF21E2CC251F68BE008E2E84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21E2CB251F68BE008E2E84 /* SceneDelegate.swift */; };
+		EF21E2CE251F68BE008E2E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21E2CD251F68BE008E2E84 /* ViewController.swift */; };
+		EF21E2D1251F68BE008E2E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF21E2CF251F68BE008E2E84 /* Main.storyboard */; };
+		EF21E2D3251F68C0008E2E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF21E2D2251F68C0008E2E84 /* Assets.xcassets */; };
+		EF21E2D6251F68C0008E2E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF21E2D4251F68C0008E2E84 /* LaunchScreen.storyboard */; };
+		EF21E2E1251F68C0008E2E84 /* HotstarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21E2E0251F68C0008E2E84 /* HotstarTests.swift */; };
+		EF21E2EC251F68C0008E2E84 /* HotstarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21E2EB251F68C0008E2E84 /* HotstarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF21E2DD251F68C0008E2E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF21E2BE251F68BD008E2E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF21E2C5251F68BE008E2E84;
+			remoteInfo = Hotstar;
+		};
+		EF21E2E8251F68C0008E2E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF21E2BE251F68BD008E2E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF21E2C5251F68BE008E2E84;
+			remoteInfo = Hotstar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF21E2C6251F68BE008E2E84 /* Hotstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF21E2C9251F68BE008E2E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF21E2CB251F68BE008E2E84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF21E2CD251F68BE008E2E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF21E2D0251F68BE008E2E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF21E2D2251F68C0008E2E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF21E2D5251F68C0008E2E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF21E2D7251F68C0008E2E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF21E2DC251F68C0008E2E84 /* HotstarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotstarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF21E2E0251F68C0008E2E84 /* HotstarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarTests.swift; sourceTree = "<group>"; };
+		EF21E2E2251F68C0008E2E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF21E2E7251F68C0008E2E84 /* HotstarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotstarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF21E2EB251F68C0008E2E84 /* HotstarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarUITests.swift; sourceTree = "<group>"; };
+		EF21E2ED251F68C0008E2E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF21E2C3251F68BE008E2E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2D9251F68C0008E2E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2E4251F68C0008E2E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF21E2BD251F68BD008E2E84 = {
+			isa = PBXGroup;
+			children = (
+				EF21E2C8251F68BE008E2E84 /* Hotstar */,
+				EF21E2DF251F68C0008E2E84 /* HotstarTests */,
+				EF21E2EA251F68C0008E2E84 /* HotstarUITests */,
+				EF21E2C7251F68BE008E2E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF21E2C7251F68BE008E2E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF21E2C6251F68BE008E2E84 /* Hotstar.app */,
+				EF21E2DC251F68C0008E2E84 /* HotstarTests.xctest */,
+				EF21E2E7251F68C0008E2E84 /* HotstarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF21E2C8251F68BE008E2E84 /* Hotstar */ = {
+			isa = PBXGroup;
+			children = (
+				EF21E2C9251F68BE008E2E84 /* AppDelegate.swift */,
+				EF21E2CB251F68BE008E2E84 /* SceneDelegate.swift */,
+				EF21E2CD251F68BE008E2E84 /* ViewController.swift */,
+				EF21E2CF251F68BE008E2E84 /* Main.storyboard */,
+				EF21E2D2251F68C0008E2E84 /* Assets.xcassets */,
+				EF21E2D4251F68C0008E2E84 /* LaunchScreen.storyboard */,
+				EF21E2D7251F68C0008E2E84 /* Info.plist */,
+			);
+			path = Hotstar;
+			sourceTree = "<group>";
+		};
+		EF21E2DF251F68C0008E2E84 /* HotstarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF21E2E0251F68C0008E2E84 /* HotstarTests.swift */,
+				EF21E2E2251F68C0008E2E84 /* Info.plist */,
+			);
+			path = HotstarTests;
+			sourceTree = "<group>";
+		};
+		EF21E2EA251F68C0008E2E84 /* HotstarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF21E2EB251F68C0008E2E84 /* HotstarUITests.swift */,
+				EF21E2ED251F68C0008E2E84 /* Info.plist */,
+			);
+			path = HotstarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF21E2C5251F68BE008E2E84 /* Hotstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21E2F0251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "Hotstar" */;
+			buildPhases = (
+				EF21E2C2251F68BE008E2E84 /* Sources */,
+				EF21E2C3251F68BE008E2E84 /* Frameworks */,
+				EF21E2C4251F68BE008E2E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hotstar;
+			productName = Hotstar;
+			productReference = EF21E2C6251F68BE008E2E84 /* Hotstar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF21E2DB251F68C0008E2E84 /* HotstarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21E2F3251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "HotstarTests" */;
+			buildPhases = (
+				EF21E2D8251F68C0008E2E84 /* Sources */,
+				EF21E2D9251F68C0008E2E84 /* Frameworks */,
+				EF21E2DA251F68C0008E2E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF21E2DE251F68C0008E2E84 /* PBXTargetDependency */,
+			);
+			name = HotstarTests;
+			productName = HotstarTests;
+			productReference = EF21E2DC251F68C0008E2E84 /* HotstarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF21E2E6251F68C0008E2E84 /* HotstarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21E2F6251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "HotstarUITests" */;
+			buildPhases = (
+				EF21E2E3251F68C0008E2E84 /* Sources */,
+				EF21E2E4251F68C0008E2E84 /* Frameworks */,
+				EF21E2E5251F68C0008E2E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF21E2E9251F68C0008E2E84 /* PBXTargetDependency */,
+			);
+			name = HotstarUITests;
+			productName = HotstarUITests;
+			productReference = EF21E2E7251F68C0008E2E84 /* HotstarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF21E2BE251F68BD008E2E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EF21E2C5251F68BE008E2E84 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					EF21E2DB251F68C0008E2E84 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EF21E2C5251F68BE008E2E84;
+					};
+					EF21E2E6251F68C0008E2E84 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EF21E2C5251F68BE008E2E84;
+					};
+				};
+			};
+			buildConfigurationList = EF21E2C1251F68BD008E2E84 /* Build configuration list for PBXProject "Hotstar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF21E2BD251F68BD008E2E84;
+			productRefGroup = EF21E2C7251F68BE008E2E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF21E2C5251F68BE008E2E84 /* Hotstar */,
+				EF21E2DB251F68C0008E2E84 /* HotstarTests */,
+				EF21E2E6251F68C0008E2E84 /* HotstarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF21E2C4251F68BE008E2E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21E2D6251F68C0008E2E84 /* LaunchScreen.storyboard in Resources */,
+				EF21E2D3251F68C0008E2E84 /* Assets.xcassets in Resources */,
+				EF21E2D1251F68BE008E2E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2DA251F68C0008E2E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2E5251F68C0008E2E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF21E2C2251F68BE008E2E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21E2CE251F68BE008E2E84 /* ViewController.swift in Sources */,
+				EF21E2CA251F68BE008E2E84 /* AppDelegate.swift in Sources */,
+				EF21E2CC251F68BE008E2E84 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2D8251F68C0008E2E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21E2E1251F68C0008E2E84 /* HotstarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21E2E3251F68C0008E2E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF21E2EC251F68C0008E2E84 /* HotstarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF21E2DE251F68C0008E2E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF21E2C5251F68BE008E2E84 /* Hotstar */;
+			targetProxy = EF21E2DD251F68C0008E2E84 /* PBXContainerItemProxy */;
+		};
+		EF21E2E9251F68C0008E2E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF21E2C5251F68BE008E2E84 /* Hotstar */;
+			targetProxy = EF21E2E8251F68C0008E2E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF21E2CF251F68BE008E2E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF21E2D0251F68BE008E2E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF21E2D4251F68C0008E2E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF21E2D5251F68C0008E2E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF21E2EE251F68C0008E2E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF21E2EF251F68C0008E2E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF21E2F1251F68C0008E2E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = Hotstar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.Hotstar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF21E2F2251F68C0008E2E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = Hotstar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.Hotstar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF21E2F4251F68C0008E2E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = HotstarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.HotstarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotstar.app/Hotstar";
+			};
+			name = Debug;
+		};
+		EF21E2F5251F68C0008E2E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = HotstarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.HotstarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotstar.app/Hotstar";
+			};
+			name = Release;
+		};
+		EF21E2F7251F68C0008E2E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = HotstarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.HotstarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotstar;
+			};
+			name = Debug;
+		};
+		EF21E2F8251F68C0008E2E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTYWLXSK79;
+				INFOPLIST_FILE = HotstarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.startv.HotstarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotstar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF21E2C1251F68BD008E2E84 /* Build configuration list for PBXProject "Hotstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21E2EE251F68C0008E2E84 /* Debug */,
+				EF21E2EF251F68C0008E2E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21E2F0251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "Hotstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21E2F1251F68C0008E2E84 /* Debug */,
+				EF21E2F2251F68C0008E2E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21E2F3251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "HotstarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21E2F4251F68C0008E2E84 /* Debug */,
+				EF21E2F5251F68C0008E2E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21E2F6251F68C0008E2E84 /* Build configuration list for PBXNativeTarget "HotstarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21E2F7251F68C0008E2E84 /* Debug */,
+				EF21E2F8251F68C0008E2E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF21E2BE251F68BD008E2E84 /* Project object */;
+}
