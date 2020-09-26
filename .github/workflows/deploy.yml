@@ -22,4 +22,4 @@ jobs:
     - name: Archive
       run: xcodebuild -scheme Hotstar -archivePath ~/Desktop/temp/artifact.xcarchive archive
     - name: Export
-      run: xcodebuild -exportArchive -archivePath ~/Desktop/temp/artifact.xcarchive archive -exportPath ~/Desktop/temp -exportProvisioningProfile HotstarAdhoc.mobileprovision -exportOptionsPlist Profiles/appstore.plist
+      run: xcodebuild -exportArchive -archivePath ~/Desktop/temp/artifact.xcarchive -exportPath ~/Desktop/temp -exportOptionsPlist Profiles/appstore.plist
