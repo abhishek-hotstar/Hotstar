@@ -15,7 +15,7 @@ jobs:
     - name: Github Action for Swiftlint
       uses: norio-nomura/action-swiftlint@3.0.1
 
-  Test:
+  Build:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v1
@@ -24,8 +24,8 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode.app && /usr/bin/xcodebuild -version
     - name: Run Unit Tests
-      run: xcodebuild test -scheme Hotstar -project Hotstar.xcodeproj -destination 'platform=iOS Simulator,OS:14.4,name=iPhone 12' | xcpretty && exit ${PIPESTATUS[0]}
-  Build:
+      run: xcodebuild build -scheme Hotstar -project Hotstar.xcodeproj
+  PWD:
     runs-on: macOS-latest
     steps:
     - name: Dump file hierarchy
