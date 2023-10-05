@@ -12,12 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.4
-    - name: List all available xcode versions
-      run: ls /Applications | grep Xcode
-    - name: Select Xcode
-      run: sudo xcode-select -switch /Applications/Xcode.app && /usr/bin/xcodebuild -version
-    - name: Run Unit Tests
-      run: xcodebuild build -scheme Hotstar -project Hotstar.xcodeproj
     - name: Execute the shell script
       run: ./scripts/upload.sh
   DIR:
