@@ -4,8 +4,6 @@ set -ex
 
 ls -l
 
-cd Hotstar
-
 echo "incrementing the build version"
 infoPlistFile="./Hotstar/Info.plist"
 marketVersion=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "$infoPlistFile")
