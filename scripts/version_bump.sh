@@ -2,6 +2,8 @@
 
 set -ex
 
+ls -l
+
 cd Hotstar
 
 echo "incrementing the build version"
