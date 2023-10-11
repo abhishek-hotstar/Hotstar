@@ -2,10 +2,10 @@
 
 set -ex
 
-# cd Hotstar
+cd Hotstar
 
 echo "incrementing the build version"
-infoPlistFile="/Users/abhishekkumar/Documents/Github/Hotstar/Frontend/Hotstar/Hotstar/Info.plist"
+infoPlistFile="./Hotstar/Info.plist"
 marketVersion=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "$infoPlistFile")
 buildNum=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "$infoPlistFile")
 new_version=$(($buildNum + 1))
